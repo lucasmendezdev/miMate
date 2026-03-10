@@ -5,7 +5,6 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate1.jpeg",
-    talles: ["M", "L", "XL"],
     descripcion: "Remera de algodón, cómoda y versátil para todos los días."
   },
   {
@@ -14,7 +13,6 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate2.jpeg",
-    talles: ["M", "L", "XL"],
     descripcion: "Remera de algodón, cómoda y versátil para todos los días."
   },
   {
@@ -23,7 +21,6 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate3.jpeg",
-    talles: ["M", "L", "XL"],
     descripcion: "Remera de algodón, cómoda y versátil para todos los días."
   },
   {
@@ -32,7 +29,6 @@ const productos = [
     precio: 12000,
     tipo: "termos",
     imagen: "assets/img/termo1.jpeg",
-    talles: ["M", "L", "XL"],
     descripcion: "Remera de algodón, cómoda y versátil para todos los días."
   },
   {
@@ -41,7 +37,6 @@ const productos = [
     precio: 12000,
     tipo: "canastas",
     imagen: "assets/img/canasta1.jpeg",
-    talles: ["M", "L", "XL"],
     descripcion: "Remera de algodón, cómoda y versátil para todos los días."
   },
   

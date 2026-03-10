@@ -69,6 +69,7 @@ function agregarAlCarrito(producto) {
       nombre: producto.nombre,
       precio: producto.precio,
       imagen: producto.imagen,
+      descripcion: producto.descripcion,
       cantidad: 1
     });
 
