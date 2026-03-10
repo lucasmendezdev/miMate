@@ -1,8 +1,9 @@
 :root {
-  --color-principal: #000;
+  --color-principal: #2F6F4E;
   --color-secundario: #777;
   --color-fondo: #fff;
-  --color-boton: #000;
+  --color-boton: #2F6F4E;
+  --color-boton-hover: #3b8b62;
   --color-boton-texto: #fff;
 
   --fuente: 'Inter', sans-serif;

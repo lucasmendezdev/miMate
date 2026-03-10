@@ -15,95 +15,6 @@ body {
 }
 
 
-/* ===============================
-   HEADER GLOBAL
-=============================== */
-
-.header {
-  width: 100%;
-  height: 64px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 0 20px;
-
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
-
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-/* LOGO */
-
-.header__logo a {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #000;
-}
-
-/* NAV */
-
-.header__nav {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.header__nav a {
-  position: relative;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  color: #111;
-  transition: color 0.2s ease;
-}
-
-/* Hover */
-
-.header__nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-
-  width: 0%;
-  height: 2px;
-  background: #000;
-
-  transition: width 0.25s ease;
-}
-
-.header__nav a:hover::after {
-  width: 100%;
-}
-
-
-/* CONTADOR */
-
-#contadorCarrito {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  min-width: 18px;
-  height: 18px;
-
-  margin-left: 4px;
-
-  background: #000;
-  color: #fff;
-
-  font-size: 11px;
-  font-weight: 600;
-
-  border-radius: 50%;
-}
 
 /* ===============================
    HERO HOME
@@ -134,7 +45,7 @@ body {
 
   margin-bottom: 15px;
 
-  color: #111;
+  color: var(--color-boton);
 }
 
 
@@ -157,7 +68,7 @@ body {
 
   padding: 14px 36px;
 
-  background: #000;
+  background: var(--color-boton);
   color: #fff;
 
   text-decoration: none;
@@ -171,7 +82,7 @@ body {
 }
 
 .hero .btn:hover {
-  background: #111;
+  background: var(--color-boton-hover);
   transform: translateY(-2px);
 }
 
@@ -305,7 +216,7 @@ body {
 }
 
 .slide-text .btn:hover {
-  background: #000;
+  background: var(--color-boton);
   color: #fff;
 }
 
@@ -360,7 +271,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   font-size: 28px;
-  color: #000000;
+  color: var(--color-boton);
 }
 
 .destacados-grid {
