@@ -18,7 +18,7 @@
 }
 
 .filtro-btn.active {
-  background: #000;
+  background: var(--color-boton);
   color: #fff;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .talle-btn.active {
-  background: #000;
+  background: var(--color-boton);
   color: #fff;
 }
 
@@ -95,7 +95,7 @@
 .btn-agregar {
   width: 100%;
   padding: 8px;
-  background: #000;
+  background: var(--color-boton);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -194,7 +194,7 @@
 /* Estados */
 
 .toast.success {
-  background: #16a34a; /* Verde */
+  background: var(--color-boton);
 }
 
 .toast.warning {
@@ -341,7 +341,7 @@
   }
 
   .filtros-mobile-btn button {
-    background: #111;
+    background: var(--color-boton);
     color: #fff;
 
     border: none;
@@ -360,6 +360,7 @@
   }
 
   .filtros-mobile-btn button:active {
+    background: var(--color-boton);
     transform: scale(0.95);
   }
 
@@ -405,13 +406,14 @@
 
   .filtro-btn:active {
     transform: scale(0.95);
+    background: var(--color-boton);
   }
 
 
   /* Activo */
 
   .filtro-btn.active {
-    background: #111;
+    background: var(--color-boton);
     color: #fff;
 
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
