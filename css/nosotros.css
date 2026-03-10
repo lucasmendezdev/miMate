@@ -1,164 +1,242 @@
-/* ===============================
- CONTENEDOR GENERAL
-=============================== */
+/* =========================================
+CONTENEDOR GENERAL
+========================================= */
 
-.about-container {
-  max-width: 1200px;
-  margin: 0 auto;
+.about-container{
 
-  padding: 60px 20px;
-}
+max-width:1100px;
+margin:auto;
 
-.about-container h1 {
-  text-align: center;
-  margin-bottom: 50px;
-
-  font-size: 32px;
-}
-
-
-/* ===============================
- GRID PRINCIPAL
-=============================== */
-
-.about-grid {
-  display: grid;
-
-  grid-template-columns: 1fr 1fr;
-
-  gap: 50px;
-
-  align-items: center;
-}
-
-
-/* ===============================
- IMAGEN
-=============================== */
-
-.about-img img {
-  width: 100%;
-
-  border-radius: 8px;
-
-  object-fit: cover;
-
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-
-/* ===============================
- INFO
-=============================== */
-
-.about-info h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.about-info h3 {
-  font-size: 18px;
-
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-.about-info p {
-  color: #444;
-
-  line-height: 1.6;
-
-  margin-bottom: 15px;
-}
-
-
-/* ===============================
- CONTACTO
-=============================== */
-
-.about-contacto {
-  list-style: none;
-
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.about-contacto li {
-  margin-bottom: 6px;
-
-  font-size: 14px;
-}
-
-
-/* ===============================
- REDES
-=============================== */
-
-.about-redes {
-  display: flex;
-
-  gap: 15px;
-}
-
-.about-redes a {
-  text-decoration: none;
-
-  padding: 8px 16px;
-
-  border: 1px solid #000;
-
-  color: #000;
-
-  font-size: 14px;
-
-  border-radius: 4px;
-
-  transition: all 0.2s ease;
-}
-
-.about-redes a:hover {
-  background: #000;
-  color: #fff;
-}
-
-
-/* ===============================
- RESPONSIVE
-=============================== */
-
-@media (max-width: 900px) {
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-container {
-    padding: 40px 15px;
-  }
-
-  .about-container h1 {
-    font-size: 26px;
-  }
-
-  .about-info h2 {
-    font-size: 22px;
-  }
+padding:60px 20px;
 
 }
 
 
-@media (max-width: 500px) {
 
-  .about-container {
-    padding: 30px 12px;
-  }
+/* =========================================
+GRID PRINCIPAL
+========================================= */
 
-  .about-redes {
-    flex-direction: column;
-  }
+.about-grid{
 
-  .about-redes a {
-    text-align: center;
-  }
+display:grid;
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+
+
+/* =========================================
+IMAGEN
+========================================= */
+
+.about-img img{
+
+width:100%;
+
+border-radius:12px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+object-fit:cover;
+
+}
+
+
+
+/* =========================================
+INFO
+========================================= */
+
+.about-info{
+
+display:flex;
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.about-info h2{
+
+font-size:32px;
+
+margin-bottom:10px;
+
+}
+
+.about-info p{
+
+font-size:16px;
+
+line-height:1.7;
+
+color:#555;
+
+}
+
+
+
+/* =========================================
+DESARROLLADOR
+========================================= */
+
+.dev-container{
+
+margin-top:10px;
+
+padding:20px;
+
+background:#fafafa;
+
+border-radius:10px;
+
+border:1px solid #eee;
+
+}
+
+.dev-container p{
+
+margin-bottom:10px;
+
+}
+
+
+
+/* =========================================
+CONTACTO
+========================================= */
+
+.about-contacto-container{
+
+margin-top:20px;
+
+}
+
+.about-contacto-container h3{
+
+font-size:22px;
+
+margin-bottom:10px;
+
+}
+
+.about-contacto{
+
+list-style:none;
+
+display:flex;
+flex-direction:column;
+
+gap:8px;
+
+margin-bottom:20px;
+
+}
+
+.about-contacto li{
+
+font-size:15px;
+
+color:#444;
+
+}
+
+
+
+/* =========================================
+REDES
+========================================= */
+
+.about-redes{
+
+display:flex;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+.about-redes a{
+
+text-decoration:none;
+
+padding:10px 18px;
+
+border-radius:6px;
+
+font-size:14px;
+
+font-weight:500;
+
+background:#2f6f4e;
+
+color:white;
+
+transition:0.2s;
+
+}
+
+.about-redes a:hover{
+
+opacity:0.9;
+transform:translateY(-2px);
+
+}
+
+
+
+/* =========================================
+FOOTER
+========================================= */
+
+.footer{
+
+margin-top:80px;
+
+padding:25px;
+
+text-align:center;
+
+font-size:14px;
+
+color:#777;
+
+border-top:1px solid #eee;
+
+}
+
+
+
+/* =========================================
+RESPONSIVE
+========================================= */
+
+@media (max-width:900px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.about-img{
+
+order:-1;
+
+}
+
+.about-info h2{
+
+font-size:26px;
+
+}
 
 }

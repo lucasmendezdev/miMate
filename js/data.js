@@ -5,7 +5,7 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate1.jpeg",
-    descripcion: "Remera de algodón, cómoda y versátil para todos los días."
+    descripcion: "Artesanal 100% algarrobo."
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate2.jpeg",
-    descripcion: "Remera de algodón, cómoda y versátil para todos los días."
+    descripcion: "Calabaza recubierto con cuero vacuno."
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const productos = [
     precio: 12000,
     tipo: "mates",
     imagen: "assets/img/mate3.jpeg",
-    descripcion: "Remera de algodón, cómoda y versátil para todos los días."
+    descripcion: "Acero inoxidable recubiero con cuero vacuno."
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const productos = [
     precio: 12000,
     tipo: "termos",
     imagen: "assets/img/termo1.jpeg",
-    descripcion: "Remera de algodón, cómoda y versátil para todos los días."
+    descripcion: "Material de acero inoxidable con pico vertedor."
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const productos = [
     precio: 12000,
     tipo: "canastas",
     imagen: "assets/img/canasta1.jpeg",
-    descripcion: "Remera de algodón, cómoda y versátil para todos los días."
+    descripcion: "Material 100% cuero vacuno con division."
   },
   
   
